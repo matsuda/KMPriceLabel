@@ -1,0 +1,280 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0EF11353150465CB0023CB08 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EF11352150465CB0023CB08 /* UIKit.framework */; };
+		0EF11355150465CB0023CB08 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EF11354150465CB0023CB08 /* Foundation.framework */; };
+		0EF11357150465CB0023CB08 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EF11356150465CB0023CB08 /* CoreGraphics.framework */; };
+		0EF11376150466BB0023CB08 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EF11370150466BB0023CB08 /* AppDelegate.m */; };
+		0EF11377150466BB0023CB08 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0EF11371150466BB0023CB08 /* InfoPlist.strings */; };
+		0EF11378150466BB0023CB08 /* KMPriceLabel-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0EF11373150466BB0023CB08 /* KMPriceLabel-Info.plist */; };
+		0EF11379150466BB0023CB08 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EF11375150466BB0023CB08 /* main.m */; };
+		0EF1137E1504673E0023CB08 /* KMPriceLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EF1137D1504673E0023CB08 /* KMPriceLabel.m */; };
+		0EF113821504681D0023CB08 /* SampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EF113801504681D0023CB08 /* SampleViewController.m */; };
+		0EF113831504681D0023CB08 /* SampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0EF113811504681D0023CB08 /* SampleViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0EF1134E150465CB0023CB08 /* KMPriceLabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KMPriceLabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EF11352150465CB0023CB08 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0EF11354150465CB0023CB08 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0EF11356150465CB0023CB08 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0EF1136F150466BB0023CB08 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0EF11370150466BB0023CB08 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0EF11372150466BB0023CB08 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0EF11373150466BB0023CB08 /* KMPriceLabel-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "KMPriceLabel-Info.plist"; sourceTree = "<group>"; };
+		0EF11374150466BB0023CB08 /* KMPriceLabel-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KMPriceLabel-Prefix.pch"; sourceTree = "<group>"; };
+		0EF11375150466BB0023CB08 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0EF1137C1504673E0023CB08 /* KMPriceLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMPriceLabel.h; sourceTree = "<group>"; };
+		0EF1137D1504673E0023CB08 /* KMPriceLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMPriceLabel.m; sourceTree = "<group>"; };
+		0EF1137F1504681D0023CB08 /* SampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleViewController.h; sourceTree = "<group>"; };
+		0EF113801504681D0023CB08 /* SampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleViewController.m; sourceTree = "<group>"; };
+		0EF113811504681D0023CB08 /* SampleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SampleViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0EF1134B150465CB0023CB08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EF11353150465CB0023CB08 /* UIKit.framework in Frameworks */,
+				0EF11355150465CB0023CB08 /* Foundation.framework in Frameworks */,
+				0EF11357150465CB0023CB08 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0EF11343150465CB0023CB08 = {
+			isa = PBXGroup;
+			children = (
+				0EF1137B150467290023CB08 /* KMPriceLabel */,
+				0EF1136E150466BB0023CB08 /* KMPriceLabelSample */,
+				0EF11351150465CB0023CB08 /* Frameworks */,
+				0EF1134F150465CB0023CB08 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0EF1134F150465CB0023CB08 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0EF1134E150465CB0023CB08 /* KMPriceLabel.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0EF11351150465CB0023CB08 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0EF11352150465CB0023CB08 /* UIKit.framework */,
+				0EF11354150465CB0023CB08 /* Foundation.framework */,
+				0EF11356150465CB0023CB08 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0EF1136E150466BB0023CB08 /* KMPriceLabelSample */ = {
+			isa = PBXGroup;
+			children = (
+				0EF1136F150466BB0023CB08 /* AppDelegate.h */,
+				0EF11370150466BB0023CB08 /* AppDelegate.m */,
+				0EF11371150466BB0023CB08 /* InfoPlist.strings */,
+				0EF11373150466BB0023CB08 /* KMPriceLabel-Info.plist */,
+				0EF11374150466BB0023CB08 /* KMPriceLabel-Prefix.pch */,
+				0EF11375150466BB0023CB08 /* main.m */,
+				0EF1137F1504681D0023CB08 /* SampleViewController.h */,
+				0EF113801504681D0023CB08 /* SampleViewController.m */,
+				0EF113811504681D0023CB08 /* SampleViewController.xib */,
+			);
+			path = KMPriceLabelSample;
+			sourceTree = "<group>";
+		};
+		0EF1137B150467290023CB08 /* KMPriceLabel */ = {
+			isa = PBXGroup;
+			children = (
+				0EF1137C1504673E0023CB08 /* KMPriceLabel.h */,
+				0EF1137D1504673E0023CB08 /* KMPriceLabel.m */,
+			);
+			path = KMPriceLabel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0EF1134D150465CB0023CB08 /* KMPriceLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EF11366150465CB0023CB08 /* Build configuration list for PBXNativeTarget "KMPriceLabel" */;
+			buildPhases = (
+				0EF1134A150465CB0023CB08 /* Sources */,
+				0EF1134B150465CB0023CB08 /* Frameworks */,
+				0EF1134C150465CB0023CB08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KMPriceLabel;
+			productName = KMPriceLabel;
+			productReference = 0EF1134E150465CB0023CB08 /* KMPriceLabel.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0EF11345150465CB0023CB08 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 0EF11348150465CB0023CB08 /* Build configuration list for PBXProject "KMPriceLabel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0EF11343150465CB0023CB08;
+			productRefGroup = 0EF1134F150465CB0023CB08 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0EF1134D150465CB0023CB08 /* KMPriceLabel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0EF1134C150465CB0023CB08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EF11377150466BB0023CB08 /* InfoPlist.strings in Resources */,
+				0EF11378150466BB0023CB08 /* KMPriceLabel-Info.plist in Resources */,
+				0EF113831504681D0023CB08 /* SampleViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0EF1134A150465CB0023CB08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EF11376150466BB0023CB08 /* AppDelegate.m in Sources */,
+				0EF11379150466BB0023CB08 /* main.m in Sources */,
+				0EF1137E1504673E0023CB08 /* KMPriceLabel.m in Sources */,
+				0EF113821504681D0023CB08 /* SampleViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0EF11371150466BB0023CB08 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0EF11372150466BB0023CB08 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0EF11364150465CB0023CB08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0EF11365150465CB0023CB08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0EF11367150465CB0023CB08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KMPriceLabelSample/KMPriceLabel-Prefix.pch";
+				INFOPLIST_FILE = "KMPriceLabelSample/KMPriceLabel-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0EF11368150465CB0023CB08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KMPriceLabelSample/KMPriceLabel-Prefix.pch";
+				INFOPLIST_FILE = "KMPriceLabelSample/KMPriceLabel-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0EF11348150465CB0023CB08 /* Build configuration list for PBXProject "KMPriceLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EF11364150465CB0023CB08 /* Debug */,
+				0EF11365150465CB0023CB08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0EF11366150465CB0023CB08 /* Build configuration list for PBXNativeTarget "KMPriceLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EF11367150465CB0023CB08 /* Debug */,
+				0EF11368150465CB0023CB08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0EF11345150465CB0023CB08 /* Project object */;
+}
